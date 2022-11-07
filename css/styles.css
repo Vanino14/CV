@@ -1,0 +1,16 @@
+body {background-color:#FCFAF0;}
+hr {border-style: none;border-top-style: dotted;width:4%; border-width: 10px;border-color: #B5B2B0; }
+h1{color: #8A9EA0; font-style: normal; font-family: sans-serif;text-align: left;}
+h3{color: #8A9EA0; font-style: normal; font-family: sans-serif;text-align: left;}
+p {color: #8A9EA0; font-family: serif;}
+li {color: #B5B2B0; font-family: serif;}
+.menu {height:38px;list-style-type:none; margin:0; padding:0;overflow: hidden; background-color:#8A9EA0;}
+.menu li {float:left;}
+.menu li a{display:block; color: white; text-align:center; padding:10px 30px;text-decoration:none;}
+.menu li a:hover:not(.active){background-color:black;}
+.menu li a.active{ float:right;}
+.active{background-color:grey;}
+.dropdown{position:block;display:inline-block;}
+.drop{display:none; position:absolute; background-color:grey;min-width:10px; box-shadow:0px 2px 3px 2px black;padding:10px 18px; z-index:1;}
+.dropdown:hover .drop{display:block;}
+.dropdown li{display:block; color:white; text-align:center; text-decoration:none;}
